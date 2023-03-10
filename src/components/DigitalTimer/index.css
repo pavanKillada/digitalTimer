@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, white, #cffcf1);
+  min-height: 100vh;
+  width: 100vw;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'roboto';
+}
+
+.timer-and-buttons {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-pause-run {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 200px;
+  margin-left: 50px;
+}
+.timer {
+  color: #00d9f5;
+  margin-bottom: 0;
+}
+.timer-text {
+  margin-top: 0;
+  padding: 10px;
+}
+.buttons-to-setTime {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.pause-play-btns {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px;
+}
+.pause-play-imgs {
+  width: 30px;
+  margin-right: 10px;
+}
+.timer-add-minus-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.set-timer-text {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.mins-container {
+  background-color: #00d9f5;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 8px;
+}
